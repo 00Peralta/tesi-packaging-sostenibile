@@ -1,0 +1,1263 @@
+/* selettore{
+        proprietà: valore;
+        proprietà: valore;
+}*/
+
+.margine{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.3;/*spaziatura perfetta tra le righe di testo per leggerlo bene da vicino*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 12px 32px rgba(0,0,0, 0.08);
+}
+.contenitore-principale{
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       position: absolute;
+       top: 20px;
+       left: 50%;
+       transform: translatex(-50%);
+       display: flex;
+       gap: 50px;
+       flex-direction: row;
+       justify-content: center;
+       width: max-content;
+       z-index: 10; /*impedisce che altri elementi finiscano sopra*/
+       
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+a{
+       text-decoration: none;
+}
+
+.rettangolo{
+       width: 250px;
+       height: 100px;
+       background-color:rgb(60, 109, 182);
+       border-radius: 15px;
+       border: 3px solid;
+       /* centratura assoluta nella pagina */
+       position: relative;
+}
+
+
+#tuo-id{
+      /*centratura perfetta del testo*/
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+     
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 24px;
+      color:black;
+
+      width: max-content;
+      z-index: 10;
+
+      -webkit-text-stroke: 0.35px white;
+      margin: 0;
+
+
+}
+
+
+#tuo-id2{
+      /*centratura perfetta del testo*/
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+     
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 24px;
+      color:rgb(10, 2, 1);
+
+      width: max-content;
+      z-index: 10;
+
+      -webkit-text-stroke: 0.35px white;
+      margin: 0;
+
+
+}
+
+
+#grandezze-delle-viste{
+      /*centratura perfetta del testo*/
+     margin-left: 40px;
+
+}
+
+.rettangolo2{
+       width: 250px;
+       height: 100px;
+       background-color:rgb(95, 59, 36);
+       border-radius: 15px;
+       border: 3px solid;
+       /* centratura assoluta nella pagina */
+       display: inline-block;
+       position: relative;
+
+} 
+
+#logo{
+    display: block;
+    margin: 150px auto 0 auto; /*100px di spazio dall'alto lo spinge sotto i rettangoli*/
+    width: 300px;
+}
+
+.contenitore-titolo{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    
+}
+
+#titolo{
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+
+.contenitore-testo{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    
+}
+
+#descrizione-testo{
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    
+}
+
+/*contenitore separatore*/
+.separatore{
+    width: 100vw;
+    overflow: hidden; /*nasconde eventuali sbavature dell'immagine*/
+    margin: 0;
+    padding: 0;
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px
+}
+
+/*immagine che si adatta al contenitore per separatore*/
+#onde{
+    width: 100vw;
+    height: auto ; /*mantiene le proporzioni corrette dell'onda*/
+    display: block; /*elimina lo spazio vuoto protetto sotto l'immagine*/
+}
+
+.titolo-disegno-tecnico{
+     font-size: 25px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     margin: 0;
+     padding: 0;
+     text-align: left;
+     display: block;
+}
+
+
+.titolo-disegno-tecnico-tappo{
+     font-size: 25px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     margin: 0;
+     padding: 0;
+     text-align: left;
+     display: block;
+     margin-left: 10px;
+}
+
+
+
+
+.contenitore-disegno-tecnico{
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       position: absolute;
+       top: 20px;
+       left: 50%;
+       transform: translatex(-50%);
+       display: flex;
+       gap: 50px;
+       flex-direction: row;
+       justify-content: center;
+       width: max-content;
+}
+
+
+.immagine-testo1{
+      max-width: 400px;
+      height: auto;
+       width: 100vw;
+    overflow: hidden; /*nasconde eventuali sbavature dell'immagine*/
+    margin-left: 20px;
+    padding-left: 20px;
+    position: relative;
+    margin-top: 200px;
+}
+
+.immagine-testo-tappo{
+      max-width: 400px;
+      height: auto;
+       width: 100vw;
+    overflow: hidden; /*nasconde eventuali sbavature dell'immagine*/
+    margin-left: 20px;
+    padding-left: 20px;
+    position: relative;
+    margin-top: 40px
+}
+
+
+#linee-guida{
+      width: 300px;
+
+}
+
+#grandezze-viste-tappo{
+      
+      margin-bottom: 10px;
+      margin-top: -75px;
+
+}
+
+.elementi-sotto{
+       
+    
+       margin: 0;
+       margin-top: 0;
+       /* centratura assoluta nella pagina */
+       position: relative;
+       display: inline-block;
+       
+       
+}
+
+.contenitore-spirale-img{
+       
+       position: relative;
+       align-items: center;
+       text-align: center;
+       justify-content: center;
+       
+}
+
+
+
+.contenitore-grandezze-tappo{
+       
+       position: relative;
+       align-items: center;
+       text-align: center;
+       justify-content: center;
+       vertical-align: bottom;
+       margin-bottom: 0%;
+       padding-bottom: 0%;
+}
+
+
+.contenitore-spirale-viste{
+       
+       position: relative;
+       margin-top: 20px;
+       margin-left: 20px;
+}
+
+.contenitore-tappo{
+       
+       position: relative;
+       width: 100%;
+       max-width: 800px;
+       padding: 8%;
+}
+
+#immagine1{
+      width: 250px;
+      
+
+}
+
+#testo2-tappo{
+      align-items: center;
+      text-align: center;
+      
+
+}
+
+#immagine-colore{
+      width: 350px;
+      
+
+}
+
+#immagine-tappo{
+      width: 200px;
+      
+
+}
+
+#immagine-viste-tappo{
+      width: 400px;
+      
+
+}
+
+#testo-grandezza-tappo{
+      margin-bottom: 5px
+      
+
+}
+
+#testo-colore-img{
+      font-size: 14px;
+    margin-left: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+      
+}
+
+
+#immagine2{
+      width: 250px;
+      
+      
+
+}
+#immagine3{
+      width: 600px;
+      float: right;
+
+}
+#immagine4{
+      width: 600px;
+      float: right;
+      
+
+}
+
+.testo2{
+      
+      text-align: left;
+      font-size: 14px;
+      margin-top: 100px;
+
+}
+
+.contenitore-testo2{
+      
+      margin-right: 20px;
+      
+}
+
+
+
+.titolo-realistiche{
+      
+      font-size: 25px;
+      display: block; /* elemento a sè stante*/
+      margin-left: 34px;
+      text-align: left;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      
+}
+
+.contenitore-img-realistiche{
+      
+      display: flex;
+      justify-content: space-between; /*centra le immagini sul telefono*/
+      align-items: center;
+      flex-wrap: wrap; /*permette di andare a capo se lo spazio è piccolo*/
+      gap: 18px; /*spazio di sicurezza*/
+      width: 45%;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      box-sizing: border-box;
+      
+}
+
+#realistica-frontale{
+      
+      width: 340px;
+      
+}
+
+#realistica-laterale{
+      
+      width: 340px;
+      
+}
+
+#realistica-tappo{
+      
+      width: 340px;
+      
+}
+
+#realistica-tappo-laterale{
+      
+      width: 340px;
+      
+}
+
+.contenitore-madre{
+      
+      width: 100vw;
+      margin-top: 50px;
+      
+}
+
+.contenitore-per-direttive1{
+      
+      display: flex;
+      background-color: #e2dfd9;
+      padding: 25px 0px;
+      box-sizing: border-box;
+      position: relative;
+      filter: drop-shadow( 15px 15px 15 rgba( 0, 0, 0, 0.4)); /*ombra esterna: spostamento-x,y, sfocatura diffusione colore*/
+      overflow: visibile; 
+      width: 100%;
+      margin: 0;
+      display: flex;
+      align-items: center;
+
+}
+
+#plastica1{
+      
+      width: 300px;
+      overflow: visible;
+      position: relative;
+      flex: 1;
+      max-width: 50%;
+      display: block;
+      opacity: 0.8;
+      box-shadow: none;
+      
+}
+
+.blocco-testo-pet{
+      
+      flex: 1;
+      margin-left: 40px;
+      margin-right: 30px;
+      
+}
+
+#testo-per-plastica{
+      
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      line-height: 1.6;
+      color:rgb(39, 39, 39);
+      
+}
+
+.contenitore-per-direttive3{
+      display: flex;
+      background-color: #e2dfd9;
+      padding: 50px 0%;
+      overflow: visible;
+      width: 100%;
+      margin: 0;
+      min-height: 80%;
+  
+}
+
+.blocco-testo-rifiuti{
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;   
+      text-align: left;
+      margin-left: 30px;
+      margin-right: 40px;  
+ 
+}
+
+#rifiuti{
+      
+      width: 400px;
+      float: right;
+      overflow: visible;
+      flex: 1;
+      max-width: 50%;
+      opacity: 0.8;
+      box-shadow: none;
+      margin: 0;
+      padding: 0;
+}
+
+#testo-per-rifiuti{
+      
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      line-height: 1.6;
+      color:rgb(39, 39, 39);
+      text-align: left;
+      float: left;
+      
+}
+
+.contenitore-per-direttive2{
+      
+      display: flex;
+      background-color: #e2dfd9;
+      padding: 25px 0px;
+      box-sizing: border-box;
+      position: relative;
+      filter: drop-shadow( 15px 15px 15 rgba( 0, 0, 0, 0.4)); /*ombra esterna: spostamento-x,y, sfocatura diffusione colore*/
+      overflow: visibile; 
+      width: 100%;
+      margin: 0;
+      display: flex;
+      align-items: center;
+
+}
+
+#etichetta{
+      
+      width: 300px;
+      overflow: visible;
+      position: relative;
+      flex: 1;
+      max-width: 50%;
+      display: block;
+      opacity: 0.8;
+      box-shadow: none;
+      
+}
+
+.blocco-testo-etichetta{
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;   
+      text-align: left;
+      margin-left: 30px;
+      margin-right: 40px;  
+ 
+}
+
+.gestione-rifiuti{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;  
+      position: relative;
+      
+}
+
+#icone-rifiuti{
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;   
+      margin-left: 30px;
+      margin-right: 40px;
+      width: 800px;  
+      max-width: 100%;
+      height: auto;
+      display: inline-block;
+}
+
+#testo-icone{
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;  
+      position: relative;
+      text-align: center;
+      font-size: 14px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contenitore-etichetta-me{
+     font-size: 25px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     margin-left: 25px;
+     padding: 0;
+     text-align: left;
+     display: block;
+}
+
+.immagine-testo-etichetta{
+      max-width: 300px;
+      height: auto;
+       width: 100vw;
+    overflow: hidden; /*nasconde eventuali sbavature dell'immagine*/
+    margin-left: 20px;
+    padding-left: 20px;
+    position: relative;
+    margin-top: 10px;
+}
+
+#linee-guida-etichetta{
+      width: 300px;
+
+}
+
+#linee-guida-etichetta2{
+      width: 300px;
+
+}
+
+
+
+#titolo-rendering{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contenitore-immagini-rendering{
+       position: relative;
+       align-items: center;
+       max-width: 100%;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       
+}
+
+#vista3{
+    width: 400px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#dettaglio-collo{
+    width: 400px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#vista-tappo4{
+    width: 400px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#testo-modello-spirale{
+    font-size: 14px;
+    margin-left: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.contenitore-modello-etichetta{
+       position: relative;
+       align-items: center;
+       max-width: 100%;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       
+}
+
+#vista-tappo2{
+    width: 350px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#viste-modello{
+    width: 550px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#testo-modello-spirale2{
+    font-size: 14px;
+    margin-left: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+.footer{
+    background-color: rgb(2, 2, 35);/*colore blu scuro personale per footer*/
+    padding: 25px;
+    width: 100%;/*prende tutta la larghezza dello schermo*/
+    margin: 0;
+    box-sizing: border-box;
+    height: auto;
+    min-width: 40px;
+
+}
+
+.footer-container{
+    max-width: 1200px;
+    margin: 0;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;/*permette di andare a capo nei cellulari*/
+    justify-content: space-between;/*distribuisce le colonne nello spazio*/
+    display: flex;
+    flex-direction: row;/*dispone i figli in linea orizontale*/
+    align-items: flex-start;
+    gap: 250px;
+}
+
+#titolo-pagina{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: blanchedalmond;
+}
+
+#paragrafo-titolo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    color: blanchedalmond;
+}
+
+.footer-telefono{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;/*permette di andare a capo nei cellulari*/
+    justify-content: space-between;/*distribuisce le colonne nello spazio*/
+}
+
+.container-principale-contatti{
+    display: flex;
+    flex-wrap: wrap;/*permette di andare a capo nei cellulari*/
+    justify-content: space-between;/*distribuisce le colonne nello spazio*/
+    flex: 1;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+    object-fit: contain;
+    
+}
+
+.footer-gmail{
+    display: flex;/*forza l'elemento a comportarsi ad adare sotto al precedente*/
+    gap: 25px;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;/*permette di andare a capo nei cellulari*/
+    justify-content: space-between;/*distribuisce le colonne nello spazio*/
+    margin-top: 25px;
+    padding: 0;
+    flex-direction: row;
+    flex-shrink: 0;
+    padding: 0%;
+}
+
+#personale{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: blanchedalmond;
+}
+
+#icona-telefono{
+    width: 60px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+#icona-gmail{
+    width: 60px;
+    object-fit: contain;
+    flex-shrink: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+#telefono{
+    position: relative;
+    display: flex;
+    flex: 1;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: blanchedalmond;
+}
+
+.footer-gmail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;/*permette di andare a capo nei cellulari*/
+    justify-content: space-between;/*distribuisce le colonne nello spazio*/
+    margin-right: 15px;
+    padding: 0;
+    white-space: nowrap;
+}
+
+
+#gmail{
+    display: flex;
+    margin: -12px;
+    flex: 1;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: blanchedalmond;
+    word-break: break-all;/*impedisce al testo lungo di uscire dagli schermi*/
+    white-space: nowrap;
+    padding: 0%;
+}
+
+.container-certificata{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;/*permette di andare a capo nei cellulari*/
+    justify-content: space-between;/*distribuisce le colonne nello spazio*/
+    margin-top: 30px;
+    padding: 0;
+    white-space: nowrap;
+}
+
+#certificata{
+    display: flex;
+    text-align: left;
+    flex: 1;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: blanchedalmond;
+    word-break: break-all;/*impedisce al testo lungo di uscire dagli schermi*/
+    white-space: nowrap;
+    margin-left: 10px;
+}
+
+#icona-certificata{
+    width: 60px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+#logo-footer{
+    width: 100px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.logo-assestante{
+    display: block;
+    object-fit: contain;
+    flex-shrink: 0;
+    margin-top: 50px;
+}
+
+.diritti-riservati{
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;/*permette di andare a capo nei cellulari*/
+    justify-content: space-between;/*distribuisce le colonne nello spazio*/
+    margin-right: 15px;
+    padding: 0;
+    white-space: nowrap;
+}
+
+#Copyright{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: blanchedalmond;
+}
+
+#simbolo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: blanchedalmond;
+    margin-bottom: 1%;
+}
+
+.footer-bottom{
+    display: block;
+    display: inline-block;
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#legali{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: blanchedalmond;
+    margin-bottom: 1%;
+}
+
+#etichetta-spirale{
+    width: 350px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+
+.contenitore-prototipazione{
+       position: relative;
+       align-items: center;
+       max-width: 100%;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       margin-top: 40px;
+}
+
+#img-spirale2{
+    width: 350px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#img-spirale3{
+    width: 350px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#testo-prototipazione{
+    font-size: 14px;
+    margin-left: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+.contenitore-stampa{
+       position: relative;
+       align-items: center;
+       max-width: 100%;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       margin-top: 40px;
+}
+
+#img-stampa1{
+    width: 350px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#img-stampa2{
+    width: 350px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#testo-stampa{
+    font-size: 14px;
+    margin-left: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+.contenitore-misure{
+       position: relative;
+       align-items: center;
+       max-width: 100%;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       margin-top: 40px;
+       align-items: center;
+       flex-wrap: wrap; /*permette di andare a capo se ci sono due elementi*/
+       background-color: rgba(185, 183, 255, 0.4);
+       width: fit-content;
+       border-radius: 12px;
+       margin: 0 auto;
+       margin-top: 30px;
+    
+}
+
+.box-immagine-testo{
+       display: flex;
+       position: relative;
+       align-items: center;
+       max-width: 100%;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       margin-top: 40px;
+       flex-wrap: wrap; /*permette di andare a capo se ci sono due elementi*/
+       flex-direction: column; /*allinea gli elementi dall'alto verso il basso*/
+       margin-right: 15px;
+    
+}
+
+.box-immagine-testo2{
+       display: flex;
+       position: relative;
+       align-items: center;
+       max-width: 100%;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       margin-top: 40px;
+       flex-wrap: wrap; /*permette di andare a capo se ci sono due elementi*/
+       flex-direction: column; /*allinea gli elementi dall'alto verso il basso*/
+       margin-right: 25px;
+    
+}
+
+.box-immagine-testo{
+       display: flex;
+       position: relative;
+       align-items: center;
+       max-width: 100%;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       margin-top: 40px;
+       flex-wrap: wrap; /*permette di andare a capo se ci sono due elementi*/
+       flex-direction: column; /*allinea gli elementi dall'alto verso il basso*/
+       margin-left: 20px;
+    
+}
+
+#img-1000ml{
+    width: 350px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#img-500ml{
+    width: 350px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#testo-grandezze{
+    font-size: 14px;
+    margin-left: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+
+.titolo-grandezze{
+     font-size: 25px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     margin-left: 100px;
+     padding: 0;
+     text-align: left;
+     display: block;
+}
+
+
+#testo-1000ml{
+       position: relative;
+       align-items: center;
+       display: flex;
+       max-width: 100%;
+       flex-direction: row;
+       margin-top: 7px;
+       align-items: center;
+       flex-direction: column;
+       text-align: center;
+    
+}
+
+#testo-500ml{
+       position: relative;
+       align-items: center;
+       display: flex;
+       max-width: 100%;
+       flex-direction: row;
+       margin-top: 7px;
+       align-items: center;
+       flex-direction: column;
+       text-align: center;
+    
+}
+
+
+.paragrafo-misure{
+       display: flex;
+       position: relative;
+       align-items: center;
+       max-width: 100%;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       margin-top: 40px;
+       flex-wrap: wrap; /*permette di andare a capo se ci sono due elementi*/
+       flex-direction: column; /*allinea gli elementi dall'alto verso il basso*/
+       margin-left: 20px;
+    
+}
+
+@media (max-width: 600px) {
+
+        .striscia1{
+       
+             width: 100%;
+             max-width: 100%;
+             margin: 0;
+             padding: 16px 8%;
+             box-sizing: border-box;
+}
+
+         .footer{
+       
+             width: 100%;
+             max-width: 100%;
+             margin: 0;
+             padding: 15px 8%;
+             box-sizing: border-box;
+
+             
+}
+        .contenitore-principale{
+              width: 100%;
+              max-width: 100%;
+              padding: 5%;
+             box-sizing: border-box;
+        }
+        
+        .contenitore-titolo{
+              width: 100%;
+        max-width: 100%;
+        padding: 5%;
+        box-sizing: border-box;
+        }
+        .contenitore-testo{
+            width: 100%;
+        max-width: 100%;
+        padding: 5%;
+        box-sizing: border-box;
+        }
+        .contenitore-disegno-tecnico{
+            width: 100%;
+        max-width: 100%;
+        padding: 5%;
+        box-sizing: border-box;
+        }
+        .contenitore-spirale-img{
+            width: 100%;
+        max-width: 100%;
+        padding: 5%;
+        box-sizing: border-box;
+        }
+        .contenitore-spirale-vista{
+            width: 100%;
+        max-width: 100%;
+        padding: 5%;
+        box-sizing: border-box;
+        }
+        .contenitore-testo2{
+            width: 100%;
+        max-width: 100%;
+        padding: 5%;
+        box-sizing: border-box;
+        }
+        .contenitore-img-realistiche{
+            width: 100%;
+        max-width: 100%;
+        padding: 5%;
+        box-sizing: border-box;
+        }
+        .contenitore-madre{
+            width: 100%;
+        max-width: 100%;
+        padding: 5%;
+        box-sizing: border-box;
+        }
+        .contenitore-per-direttiva1{
+            width: 100%;
+        max-width: 100%;
+        padding: 5%;
+        box-sizing: border-box;
+        }
+        .contenitore-per-direttiva3{
+            width: 100%;
+        max-width: 100%;
+        padding: 5%;
+        box-sizing: border-box;
+        }
+        .contenitore-per-direttiva2{
+            width: 100%;
+        max-width: 100%;
+        padding: 5%;
+        box-sizing: border-box;
+        }
+        .contenitore-etichetta-me{
+            width: 100%;
+        max-width: 100%;
+        padding: 5%;
+        box-sizing: border-box;
+        }
+        .contenitore-immagini-rendering{
+            width: 100%;
+        max-width: 100%;
+        padding: 5%;
+        box-sizing: border-box;
+        }
+        .contenitore-modello-etichetta{
+            width: 100%;
+        max-width: 100%;
+        padding: 5%;
+        box-sizing: border-box;
+        }
+        .contenitore-prototipazione{
+            width: 100%;
+        max-width: 100%;
+        padding: 5%;
+        box-sizing: border-box;
+        }
+        .contenitore-stampa{
+            width: 100%;
+        max-width: 100%;
+        padding: 5%;
+        box-sizing: border-box;
+        }
+        .contenitore-misure{
+            width: 100%;
+        max-width: 100%;
+        padding: 5%;
+        box-sizing: border-box;
+        }
+
+        .contenitore-grandezze-tappo{
+            width: 100%;
+        max-width: 100%;
+        padding: 5%;
+        box-sizing: border-box;
+        }
+
+        .contenitore-tappo{
+            width: 100%;
+        max-width: 100%;
+        padding: 5%;
+        box-sizing: border-box;
+        }
+
+             
+}
+
+
+
+
+
+
