@@ -38,7 +38,7 @@ a{
 .rettangolo{
        width: 100%;
        max-width: 600px;
-       height: 100px;
+       height: auto;
        background-color:rgb(60, 109, 182);
        border-radius: 15px;
        border: 3px solid;
@@ -97,7 +97,7 @@ a{
 .rettangolo2{
        width: 100%;
        max-width: 600px;
-       height: 100px;
+       height: auto;
        background-color:rgb(95, 59, 36);
        border-radius: 15px;
        border: 3px solid;
