@@ -1112,7 +1112,7 @@ a{
     
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 600px) {
     
        
 
@@ -1125,7 +1125,7 @@ a{
              box-sizing: border-box;
 }
 
-        body{
+        .margine{
 
 margin:0;
 padding:0;
