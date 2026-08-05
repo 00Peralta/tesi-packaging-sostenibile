@@ -1112,7 +1112,7 @@ a{
     
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 700px) {
 
         .striscia1{
        
@@ -1128,7 +1128,7 @@ a{
              width: 100%;
              max-width: 100%;
              margin: 0;
-             padding: 16px 8%;
+             padding: 10px;
              box-sizing: border-box;
 }
 
