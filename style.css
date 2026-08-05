@@ -1112,18 +1112,9 @@ a{
     
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
 
         .striscia1{
-       
-             width: 100%;
-             max-width: 100%;
-             margin: 0;
-             padding: 16px 8%;
-             box-sizing: border-box;
-}
-
-         .margine{
        
              width: 100%;
              max-width: 100%;
@@ -1132,138 +1123,218 @@ a{
              box-sizing: border-box;
 }
 
+        .margine{
+       
+             width: 100%;
+             max-width: 100%;
+             margin: 0;
+             padding: 10px;
+             box-sizing: border-box;
+}
+
+
          .footer{
        
              width: 100%;
              max-width: 100%;
              margin: 0;
-             padding: 15px 8%;
+             padding: 10px;
              box-sizing: border-box;
 
              
 }
+
         
-        
-        .contenitore-titolo{
-              width: 100%;
-        max-width: 100%;
-        padding: 5%;
-        box-sizing: border-box;
-        }
-        .contenitore-testo{
-            width: 100%;
-        max-width: 100%;
-        padding: 5%;
-        box-sizing: border-box;
-        }
-        .contenitore-disegno-tecnico{
-            width: 100%;
-        max-width: 100%;
-        padding: 5%;
-        box-sizing: border-box;
-        }
-        .contenitore-spirale-img{
-            width: 100%;
-        max-width: 100%;
-        padding: 5%;
-        box-sizing: border-box;
-        }
-        .contenitore-spirale-vista{
-            width: 100%;
-        max-width: 100%;
-        padding: 5%;
-        box-sizing: border-box;
-        }
-        .contenitore-testo2{
-            width: 100%;
-        max-width: 100%;
-        padding: 5%;
-        box-sizing: border-box;
-        }
-        .contenitore-img-realistiche{
-            width: 100%;
-        max-width: 100%;
-        padding: 5%;
-        box-sizing: border-box;
-        }
-        .contenitore-madre{
-            width: 100%;
-        max-width: 100%;
-        padding: 5%;
-        box-sizing: border-box;
-        }
-        .contenitore-per-direttiva1{
-            width: 100%;
-        max-width: 100%;
-        padding: 5%;
-        box-sizing: border-box;
-        }
-        .contenitore-per-direttiva3{
-            width: 100%;
-        max-width: 100%;
-        padding: 5%;
-        box-sizing: border-box;
-        }
-        .contenitore-per-direttiva2{
-            width: 100%;
-        max-width: 100%;
-        padding: 5%;
-        box-sizing: border-box;
-        }
-        .contenitore-etichetta-me{
-            width: 100%;
-        max-width: 100%;
-        padding: 5%;
-        box-sizing: border-box;
-        }
-        .contenitore-immagini-rendering{
-            width: 100%;
-        max-width: 100%;
-        padding: 5%;
-        box-sizing: border-box;
-        }
-        .contenitore-modello-etichetta{
-            width: 100%;
-        max-width: 100%;
-        padding: 5%;
-        box-sizing: border-box;
-        }
-        .contenitore-prototipazione{
-            width: 100%;
-        max-width: 100%;
-        padding: 5%;
-        box-sizing: border-box;
-        }
-        .contenitore-stampa{
-            width: 100%;
-        max-width: 100%;
-        padding: 5%;
-        box-sizing: border-box;
-        }
-        .contenitore-misure{
-            width: 100%;
-        max-width: 100%;
-        padding: 5%;
-        box-sizing: border-box;
-        }
 
-        .contenitore-grandezze-tappo{
+         .contenitore-titolo{
             width: 100%;
         max-width: 100%;
         padding: 5%;
         box-sizing: border-box;
-        }
+         }
 
-        .contenitore-tappo{
+         .contenitore-testo{
+            width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        margin: 0;
+        box-sizing: border-box;
+         }
+
+         .elementi-sotto{
+            width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        margin: 0;
+        box-sizing: border-box;
+         }
+
+         .immagine-testo1{
+            width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        margin: 0;
+        box-sizing: border-box;
+         }
+
+        .immagine-testo-etichetta{
+            width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        margin: 0;
+        box-sizing: border-box;
+         }
+
+         .immagine-testo-tappo{
+            width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        margin: 0;
+        box-sizing: border-box;
+         }
+
+         .box-immagine-testo{
+            width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        margin: 0;
+        box-sizing: border-box;
+         }
+
+         .box-immagine-testo2{
+            width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        margin: 0;
+        box-sizing: border-box;
+         }
+
+         .separatore{
+            width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+         }
+
+         .contenitore-disegno-tecnico{
+            width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+         }
+
+         .contenitore-spirale-img{
             width: 100%;
         max-width: 100%;
         padding: 5%;
         box-sizing: border-box;
-        }
+         }
 
-             
+         .contenitore-spirale-viste{
+            width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+         }
+
+         .contenitore-testo2{
+            width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+         }
+
+         .contenitore-img-realistiche{
+            width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+         }
+
+         .contenitore-madre{
+            width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+         }
+
+         .contenitore-per-direttive1{
+            width: 100%;
+        max-width: 100%;
+        padding: 10px;
+         box-sizing: border-box;
+         }
+
+         .contenitore-per-direttive3{
+            width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+         }
+
+         .contenitore-per-direttive2{
+            width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+         }
+
+         .contenitore-etichetta-me{
+            width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+         }
+
+         .contenitore-immagini-rendering{
+            width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+         }
+
+         .contenitore-modello-etichetta{
+            width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+         }
+
+         .contenitore-prototipazione{
+            width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+         }
+
+         .contenitore-stampa{
+            width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+         }
+
+         .contenitore-misure{
+            width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+         }
+
+         .contenitore-grandezze-tappo{
+            width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+         }
+
+         .contenitore-tappo{
+            width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+         }
+
 }
-
 
 
 
