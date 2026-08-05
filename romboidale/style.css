@@ -1109,9 +1109,18 @@ a{
     
 }
 
-@media (max-width: 800px) {
+@media (max-width: 100vw) {
 
         .striscia1{
+       
+             width: 100%;
+             max-width: 100%;
+             margin: 0;
+             padding: 16px 8%;
+             box-sizing: border-box;
+}
+
+        .margine{
        
              width: 100%;
              max-width: 100%;
